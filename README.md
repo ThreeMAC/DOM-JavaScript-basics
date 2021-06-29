@@ -14,7 +14,7 @@ These DOM objects can be manipulated in JavaScript.
 -JavaScript can react to all existing HTML events in the page     
 -JavaScript can create new HTML events in the page
 
-Source: https://www.w3schools.com/js/js_htmldom.asp
+If you want to learn more, check out https://www.w3schools.com/js/js_htmldom.asp
 
 In this example I'll demonstrate how to show a list of albums in HTML through 
 DOM in JavaScript. The main focus is the app.js file in the js directory. The CSS is 
