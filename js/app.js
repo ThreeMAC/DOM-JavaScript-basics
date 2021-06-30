@@ -5,7 +5,8 @@ const albumsContainer = document.querySelector("#albums")
 //const albumImages = ["includes/images/Lil Baby Too Hard.jpg","includes/images/Pierre Bourne TLOP 5.png", "includes/images/Z Money Shawty Paid.jpg"]
 //const albumNames = ["Lil Baby - Too Hard (2017)", "Pi'erre Bourne - TLOP 5", "Z-Money - Shawty Paid (2019)"]
 
-// However, it is in your best interest to link these two together in an an array of objects like this. Especially if the data in the array can change
+// However, it is in your best interest to link these two together in an an array of objects like this. Especially if the data in the array can change.
+//You can add your own albums here. the image can also be an online source.
 const albums = [
     { name: "Lil Baby - Too Hard (2017)", image: "includes/images/Lil Baby Too Hard.jpg" },
     { name: "Pi'erre Bourne - TLOP 5 (2021)", image: "includes/images/Pierre Bourne TLOP 5.png" },
@@ -26,7 +27,7 @@ function addAlbum(album){
     // Append or add the div with class "album" to the html div with "albums" tag
     albumsContainer.appendChild(albumsDiv)
 
-    // Create element for an img
+    // Create element for an image
     const img = document.createElement("img")
 
     // Link the source for the image that's in the album array
